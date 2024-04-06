@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Budget Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Budget Management Application is a React-based web application designed to help individuals manage their personal finances. It allows users to create budgets, record expenses, and view financial summaries, all within a user-friendly interface. The application leverages local storage to persist data across sessions, ensuring that users never lose track of their financial goals.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Manage Budgets**: Create, view, and delete budgets with ease.
+- **Record Expenses**: Log expenses against specific budgets.
+- **View Expenses**: See a detailed list of expenses for each budget.
+- **Data Persistence**: Utilizes local storage to ensure data is saved across sessions.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before you begin, ensure you have the following tools installed on your system:
+- [Node.js](https://nodejs.org/en/) (v12.0 or higher recommended)
+- npm (normally comes with Node.js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+Follow these steps to get your development environment running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/yourusername/budget-management-app.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+    ```bash
+    cd budget-management-app
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the required dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+After running the above command, open `http://localhost:3000` in your browser to view the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To use the application, start by creating a budget using the "Add Budget" button. Once a budget is created, you can start adding expenses to it. You can view and manage these expenses through the budget cards displayed on the dashboard.
 
-### Code Splitting
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [React](https://reactjs.org/) - The web framework used
+- [React Bootstrap](https://react-bootstrap.github.io/) - Used for styling and components
+- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Used for data persistence
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+We welcome contributions to this project! To contribute, please follow these steps:
 
-### Making a Progressive Web App
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
